@@ -1,9 +1,11 @@
+import java.util.Scanner;
+
 public interface OldFashionPoundOperation {
     void sum(OldFashionPound a, OldFashionPound b);
 
     void subtraction(OldFashionPound a, OldFashionPound b);
 
-    OldFashionPound multiplication();
+    void multiplication(OldFashionPound a, int b);
 
-    OldFashionPound division();
+    void division(OldFashionPound a, int b);
 }
